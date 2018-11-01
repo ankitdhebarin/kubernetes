@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: replication-controller
+metadata:
+  name: hello-replication-controller
+spec:
+  replicas: 2
+  selector:
+    app: helloworld
+  template:
+    metadata:
+      label:
+        app: helloworld
+    spec:
+      containers:
+      - name: k8s-demo
+        image: ankitdhebarin/centos
+        ports:
+          - name: nodejs-port
+            containerPort: 3000
+
