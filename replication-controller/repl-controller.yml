@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: k8s-demo
-        image: ankitdhebarin/centos
+        image: ankitdhebarin/node
         ports:
           - name: nodejs-port
             containerPort: 3000
