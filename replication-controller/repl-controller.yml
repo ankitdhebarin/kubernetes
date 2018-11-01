@@ -8,7 +8,7 @@ spec:
     app: helloworld
   template:
     metadata:
-      label:
+      labels:
         app: helloworld
     spec:
       containers:
