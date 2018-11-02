@@ -15,3 +15,27 @@ important commands
 5) kubectl delete rc <repl-controller-name>
 
 -----------------------------------------------------------------------------------------------------------------------------
+
+# Deployments
+
+1) kubectl get deployments - displays the list of deployments
+
+2) kubectl get rs - get information about the replica sets
+
+3) kubectl get pods --show-labels # list pods with attached labels.
+
+4) kubectl rollout status deployment/helloworld-deployment # get deployment status
+
+5) kubectl set image deployment/helloworld-deployment k8s-demo=k8s-demo:2 # Runs k8s-demo with image label version 2
+
+6) kubectl edit deployment/helloworld-deployment - edit the deployment object
+
+7) kubectl rollout status deployment/helloworld-deployment - get the status of rollout
+
+8) kubectl rollout history deployment/helloworld-deployment - get rollout history
+
+9) kubectl rollout undo deployment/helloworld-deployment # rollback to previous version
+
+10 kubectl rollout undo deployment/helloworld-deployment --to-revision=n # rollback to any version
+
+-----------------------------------------------------------------------------------------------------------------------------
