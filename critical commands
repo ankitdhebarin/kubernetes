@@ -1,0 +1,14 @@
+important commands
+
+# Replication Controllers
+
+1) kubectl get pods - displays list of pods
+
+2) kubectl describe pod <pod_name> - describe details about a pod like container name, image name, port details.
+
+3) kubectl scale --replicas=4 -f repl-controller.yml # scale replication controller from 2 to 4.
+
+4) kubectl scale --replicas=1 rc/<repl-controller-name> # another way to scale replication controller like point 3.
+
+5) kubectl delete rc <repl-controller-name>
+
