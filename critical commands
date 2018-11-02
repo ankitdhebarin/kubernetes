@@ -38,4 +38,6 @@ important commands
 
 10 kubectl rollout undo deployment/helloworld-deployment --to-revision=n # rollback to any version
 
+11) minikube service helloworld-deployment --url # gets the URL of service
+
 -----------------------------------------------------------------------------------------------------------------------------
