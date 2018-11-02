@@ -40,4 +40,6 @@ important commands
 
 11) minikube service helloworld-deployment --url # gets the URL of service
 
+12) kubectl expose deployment helloworld-deployement --type=NodePort # exposes a service
+
 -----------------------------------------------------------------------------------------------------------------------------
