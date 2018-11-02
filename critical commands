@@ -42,4 +42,5 @@ important commands
 
 12) kubectl expose deployment helloworld-deployement --type=NodePort # exposes a service
 
+13) kubectl label nodes minikube hardware=high-spec # assign labels to the nodes before running pods that way pods would only run on those particular nodes
 -----------------------------------------------------------------------------------------------------------------------------
