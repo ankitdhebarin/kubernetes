@@ -46,3 +46,7 @@ important commands
 
 14) kubectl exec helloworld-deployment-85458f858b-dxvv5 -it -- /bin/bash    # connect to a /bin/bash session of a pod
 -----------------------------------------------------------------------------------------------------------------------------
+
+# configMaps
+
+1) kubectl get configmap nginx-config -o yaml # get the output in yaml format
