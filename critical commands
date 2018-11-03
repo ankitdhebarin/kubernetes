@@ -63,4 +63,4 @@ important commands
 
 4) helm install --name myredis stable/redis (--name flag will give your own name to helm)
 
-5) 
+5) helm create mychart # This will create 3 Chart.yml, values.yml and templates (directory)
