@@ -50,3 +50,17 @@ important commands
 # configMaps
 
 1) kubectl get configmap nginx-config -o yaml # get the output in yaml format
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+# helm
+
+1) helm init --service-account tiller # initialize helm
+
+2) helm search redis # This will search for redis image in helm ( this is like looking for an image on docker hub)
+
+3) helm install stable/redis (this will install redis with a random name)
+
+4) helm install --name myredis stable/redis (--name flag will give your own name to helm)
+
+5) 
